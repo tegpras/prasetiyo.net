@@ -1,0 +1,105 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top:70px;
+}
+.box_besar{
+    width: 1200px;
+    margin-top: 10px;
+    height: 750px;
+    background-color:#c1702c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.box1{
+    width: 1150px;
+    background-color: #fff;
+    height: 700px;
+    display: grid;
+  justify-items: center;
+}
+.box_list{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.list{
+    width: 32%;
+    height: 300px;
+    background-color: #fff69b;
+    box-sizing: border-box;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.judul{
+    font-size: 16px;
+    font-weight: bold;
+}
+.isi{
+    font-size: 14px;
+}

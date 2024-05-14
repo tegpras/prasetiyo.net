@@ -1,0 +1,164 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container{
+    margin-top: 20px;
+    display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.box_cv{
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    width: 60%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 25%;
+}
+
+.kontak{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.telp{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.email{
+    font-weight: bold;
+}
+.container1{
+    width: 70%;
+}
+.box_identitas{
+    width: 100%;
+    display: grid;
+    align-items: center;
+}
+.nama{
+    font-size: 22px;
+    font-weight: bold;
+}
+.title{
+    font-size: 16px;
+    font-weight: lighter;
+}
+.box{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.judul{
+    width: 90%;
+    background-color: #ffd3b6;
+    padding: 2px 0px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+.box-detail{
+    display: grid;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-right: solid 1px #444;
+}
+.box-detail1{
+    display: grid;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;    
+}
+.detail{
+    text-align: center;
+}
+.box-logo{
+    padding: 50px 0px;
+}
+.logo-bawah{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 5px 0px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    width: 25px;
+}

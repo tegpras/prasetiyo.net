@@ -1,0 +1,103 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container-tengah{
+    height: 725px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box-deskripsi{
+    padding: 10px;
+    background-color: #eeba30;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.deskripsi{
+    font-size: 22px;
+    padding: 0px 10px;
+    height: 30px;
+    border-right: solid 2px #444;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.deskripsi1{
+    font-size: 22px;
+    padding: 0px 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_footer{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.a_menu_bawah{
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+}

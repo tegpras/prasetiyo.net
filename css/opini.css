@@ -1,0 +1,95 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top:70px;
+}
+.box-list{
+    width: 70%;
+    margin-top: 10px;
+}
+.box-artikel{
+display: flex;
+justify-content: space-between;
+}
+.list-artikel{
+    width: 22%;
+    display: grid;
+    align-content: center;
+    border: solid 1px lightgray;
+    padding: 10px;
+    height: 150px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.judul-artikel{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #222;
+    margin-bottom: 5px;
+}
+.penulis{
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 5px;
+}
+.sinopsis{
+    font-size: 12px;
+    text-align: justify;
+}

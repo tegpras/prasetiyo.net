@@ -1,0 +1,109 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container-tengah{
+    padding: 20px 0px;
+    display: grid;
+    justify-items: center;
+    padding-top: 70px;
+}
+.list_design{
+    width: 70%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+}
+.design{
+    background-color: #fff;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+img{
+    width: 15%;
+    height: 150px;
+    border-radius: 3px;
+}
+.ket{
+    width: 70%;
+    height:150px;
+    text-align: justify;
+    margin-left: 10px;
+}
+.judul-atas{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 70%;
+    text-align: left;
+}
+.judul{
+    font-weight: bold;
+}
+.a_design{
+    text-decoration: none;
+    color: #444;
+}

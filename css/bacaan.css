@@ -1,0 +1,104 @@
+
+body{
+    background-color: #fff;
+    color: #444;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.wrapper{
+    margin: auto;
+    padding: 0px;
+}
+.container-menu{
+    height: 40px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 90%;
+}
+.logo{
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    height: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.menu{
+    width: 35%;
+}
+.ul_menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.li_menu{
+    list-style-type: none;
+    font-weight: bold;
+}
+.a-menu{
+    text-decoration: none;
+    color:#444;
+}
+#active{
+    color:#eeba30;
+}
+.container{
+    padding: 40px 0px;
+    display: grid;
+    justify-items: center;
+    padding-top: 70px;
+}
+.container1{
+    width: 70%;
+}
+.container2{
+    display: flex;
+
+}
+img{
+    width: 20%;
+    margin-right: 20px;
+}
+.box_ket{
+    display: grid;
+    justify-content: center;
+
+}
+.tanggal{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.judul{
+    font-size: 28px;
+    font-weight: bold;
+    
+}
+.pengarang{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.sinopis{
+    font-size: 13px;
+    text-align:justify;
+}
+.box_review{
+    margin-top: 20px;
+}
+p{
+    text-indent: 50px;
+    text-align: justify;
+}
